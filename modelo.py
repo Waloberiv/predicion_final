@@ -1,6 +1,7 @@
 #importando libreria
 import pandas as pd
 import numpy as np
+import lightgbm
 
 #cargamos los datos
 print("Carga de datos")

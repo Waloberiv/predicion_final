@@ -10,7 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Prediccion del Vidrio : CERTUS</title>
+  <title>Prediccion del Credit scoring : CERTUS</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -35,17 +35,19 @@
 
 		<center>
 			<form action="{{ url_for('predict')}}"method="post">
-				<h1>PREDICCION VIDRIO </h1><h2>SOLUCION CERTUS</h2><h2>       INGRESE LOS CAMPOS</h2>
-				<input type="text" name="RI" placeholder="mean ri" required="required" />
-				<input type="text" name="Na" placeholder="mean na" required="required" />
-				<input type="text" name="MG" placeholder="mean mg" required="required" />
-				<input type="text" name="Al" placeholder="mean al" required="required" />
-				<input type="text" name="Si" placeholder="mean si" required="required" />
-				<input type="text" name="K" placeholder="mean k" required="required" />
+				<h1>PREDICCION SCORING </h1><h2>SOLUCION CERTUS</h2><h2>       INGRESE LOS CAMPOS</h2>
+				<input type="text" name="1" placeholder="FLAG_OWN_CAR" required="required" />
+				<input type="text" name="2" placeholder="FLAG_OWN_REALTY" required="required" />
+				<input type="text" name="3" placeholder="AMT_INCOME_TOTAL" required="required" />
+				<input type="text" name="4" placeholder="NAME_INCOME_TYPE" required="required" />
+				<input type="text" name="5" placeholder="NAME_EDUCATION_TYPE" required="required" />
+				<input type="text" name="6" placeholder="NAME_HOUSING_TYPE" required="required" />
 				<br>
-				<input type="text" name="Ca" placeholder="mean Ca" required="required" />
-				<input type="text" name="Ba" placeholder="mean Ba" required="required" />
-				<input type="text" name="Fe" placeholder="mean Fe" required="required" />
+				<input type="text" name="7" placeholder="DAYS_BIRTH" required="required" />
+				<input type="text" name="8" placeholder="DAYS_EMPLOYED" required="required" />
+				<input type="text" name="9" placeholder="OCCUPATION_TYPE" required="required" />
+				<input type="text" name="10" placeholder="CNT_FAM_MEMBERS" required="required" />
+				<input type="text" name="11" placeholder="MONTHS_BALANCE" required="required" />
 				<br>
 
 				<!-- show button-->
