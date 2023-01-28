@@ -13,6 +13,7 @@ from flask import Flask, request, render_template
 
 
 app = Flask(__name__)
+
 model = pickle.load(open('modelo_scoring.pkl', 'rb'))
 
 
