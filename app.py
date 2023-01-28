@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 from flask import Flask, request, render_template
 # import joblib
-import lightgbm
+#import lightgbm
 
 
 app = Flask(__name__)
